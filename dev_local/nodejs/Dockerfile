@@ -1,1 +1,0 @@
-FROM nodejs:20.6.0-bullseye
