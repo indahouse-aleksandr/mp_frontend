@@ -1,14 +1,14 @@
 version: '3'
 services:
-  tc_frontend:
+  mp_frontend:
     build:
       context: ./node
       dockerfile: Dockerfile
-    container_name: tc_frontend
-    hostname: tc_frontend
+    container_name: mp_frontend
+    hostname: mp_frontend
     volumes:
       - ../:/var/www/app
     ports:
-      - "8080:8080"
+      - "3000:3000"
     command: "bash"
     tty: true
